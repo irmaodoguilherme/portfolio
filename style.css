@@ -1,49 +1,33 @@
-.content {
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.6);
-  opacity: 0;
-  transition: 0.6s;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
-.content:hover {
-  opacity: 1;
+.mw-2-5r {
+  max-width: 2.5rem;
 }
 
-.content>* {
-  transform: translateY(30px);
-  transition: transform 0.6s;
+.mw-16-3r {
+  max-width: 16.3rem;
 }
 
-.content:hover>* {
-  transform: translateY(25px);
-  transition: transform 0.6s;
+.w-fit {
+  width: fit-content;
 }
 
-.content p {
-  color: #ffffff;
-  font-size: 1.18rem;
+.project {
+  transition: border-color 0.2s;
 }
 
-.l {
-  position: relative;
+.project:hover {
+  border-color: rgb(13, 202, 240) !important;
 }
 
-.l::after {
-  content: "";
-  position: absolute;
-  background-color: #e0e0e0;
-  height: 3px;
-  width: 0%;
-  left: 0;
-  bottom: -10px;
-  transition: 0.3s;
+.contact {
+  transition: background-color 0.2s;
 }
 
-.l:hover::after {
-  width: 100%;
-}
-
-.txt-sh {
-  text-shadow: 3px 3px 2px black;
+.contact:hover {
+  background-color: rgb(0, 0, 0, 50%)
 }

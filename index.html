@@ -3,94 +3,76 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
     integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="./style.css">
-  <title>Portfólio || Guilherme Aires</title>
+  <title>Portfólio | Guilherme Aires</title>
 </head>
 
 <body class="bg-dark text-white">
-  <div class="d-flex justify-content-center container w-50 my-4">
-    <div class="mx-auto">
-      <a href="#" class="l link-underline link-underline-opacity-0 text-info">About Me</a>
+  <h2 class="text-info text-center mt-5 mb-4 mx-auto w-fit">Sobre mim</h2>
+  <div class="d-flex justify-content-evenly flex-wrap bg-black bg-opacity-50 mb-5 align-items-center w-100 py-5">
+    <div class="w-100 mx-5" style="max-width: 33rem;">
+      <p>Meu nome é Guilherme Aires, um front end developer brasileiro de, atualmente, 24 anos.</p>
+      <p class="m-0">Gosto de criar todo tipo de coisa com JavaScript. Gosto de utilizar um tema escuro, deixa
+        meus olhos confortáveis e os olhos do usuário também, e sem muitos efeitos na criação de projetos.</p>
+      <p>Quando não estou trabalhando estou me divertindo ou dormindo.</p>
+      <p>Atualmente desenvolvo softwares com JavaScript puro, diagnóstico erros de softwares e
+        refatoro código, deixando-o mais simples e claro para o usuário.</p>
     </div>
-    <div class="vr"></div>
-    <div class="mx-auto">
-      <a href="#" class="l link-underline link-underline-opacity-0 text-info">Works</a>
-    </div>
-    <div class="vr"></div>
-    <div class="mx-auto">
-      <a href="#" class="l link-underline link-underline-opacity-0 text-info">Contact</a>
-    </div>
-  </div>
-  <h2 class="text-info text-center pt-2 mb-5">About Me</h2>
-  <div class="d-flex justify-content-evenly bg-black bg-opacity-50 mb-5 align-items-center w-100 py-5">
-    <div class="w-25">
-      <p>Sou front-end developer que, atualmente, mora em Porto Alegre, Brasil. Nasci em 2001.</p>
-      <p>Amo informática desde que me conheço por gente e participando do curso de software dev,
-        disponibilizado pela Geração Caldeira de 2023, descobri meu interesse por programação.</p>
-      <p>Meu foco atualmente está em desenvolvimento de softwares e refatoração de código,
-        tentando deixá-lo mais legível para o próximo.
-      </p>
-    </div>
-    <img src="./src/selfpic.png" alt="myself.png" class="w-25">
+    <img src="./src/selfpic.png" alt="myself.png" style="max-width: 21rem;
+    min-width: 16rem;">
   </div>
 
-  <div class="container text-center mt-4 mb-4">
-    <h2 class="text-info mb-4 pb-1">Works</h2>
-    <div class="d-flex justify-content-center align-items-center">
-      <a href="https://btdl.netlify.app/" class="w-2 p-0 mx-3">
-        <div class="w-100 h-100 d-flex justify-content-center align-items-center">
-          <div class="position-relative">
-            <img src="./src/to-do-list-preview.png" alt="to-do-list"
-              class="w-100 d-block m-auto rounded border border-black">
-            <div
-              class="content rounded h-100 w-100 position-absolute d-flex justify-content-center align-items-center flex-column">
-              <h3 class="fs-5 txt-sh text-white">To-do list</h3>
-              <p class="mx-3 fs-6 txt-sh">Keep track of what you need to-do</p>
-            </div>
-          </div>
-        </div>
-      </a>
-      <a href="https://bqz.netlify.app/" class="w-2 p-0 mx-3">
-        <div class="w-100 h-100 d-flex justify-content-center align-items-center">
-          <div class="position-relative">
-            <img src="./src/quiz-preview.png" alt="quiz" class="w-100 d-block m-auto rounded border border-black">
-            <div
-              class="content rounded h-100 w-100 position-absolute d-flex justify-content-center align-items-center flex-column">
-              <h3 class="fs-5 txt-sh text-white">Quiz</h3>
-              <p class="mx-3 fs-6 txt-sh">See how many questions you get right</p>
-            </div>
-          </div>
-        </div>
-      </a>
-      <a href="https://bw-app.netlify.app/" class="w-2 p-0 mx-3">
-        <div class="w-100 h-100 d-flex justify-content-center align-items-center">
-          <div class="position-relative">
-            <img src="./src/weather-application-preview.png" alt="weather-application"
-              class="w-100 d-block m-auto rounded border border-black">
-            <div
-              class="content rounded h-100 w-100 position-absolute d-flex justify-content-center align-items-center flex-column">
-              <h3 class="fs-5 txt-sh text-white">Weather</h3>
-              <p class="mx-3 fs-6 txt-sh">Know how hot, or cold, is in your city right now</p>
-            </div>
-          </div>
-        </div>
-      </a>
+  <div class="container text-center mt-b mb-4">
+    <h2 class="text-info mb-4 pb-1 mx-auto w-fit">Projetos</h2>
+    <div class="d-flex flex-wrap justify-content-center gap-4">
+      <div class="d-flex flex-column align-items-center mw-16-3r">
+        <a href="https://btdl.netlify.app/" class="link-underline link-underline-opacity-0 project">
+          <img class="border border-black w-100 project" src="./src/to-do-list-preview.png" alt="to-do-list-preview">
+        </a>
+        <h2 class="fs-5 text-info mt-3">To-do list</h2>
+        <p class="mx-3 fs-6">Keep track of what you need to-do.</p>
+      </div>
+      <div class="d-flex flex-column align-items-center mw-16-3r">
+        <a href="https://bqz.netlify.app//" class="link-underline link-underline-opacity-0 project">
+          <img class="border border-black w-100 project" src="./src/quiz-preview.png" alt="quiz-preview">
+        </a>
+        <h2 class="fs-5 text-info mt-3">Quiz</h2>
+        <p class="mx-3 fs-6">Veja quantas perguntas você consegue acertar.</p>
+      </div>
+      <div class="d-flex flex-column align-items-center mw-16-3r">
+        <a href="https://bw-app.netlify.app//" class="link-underline link-underline-opacity-0 project">
+          <img class="border border-black w-100 project" src="./src/weather-application-preview.png">
+        </a>
+        <h2 class="fs-5 text-info mt-3">Weather</h2>
+        <p class="mx-3 fs-6">Saiba o quão quente, ou frio, está na sua cidade agora.</p>
+      </div>
+      <div class="d-flex flex-column align-items-center mw-16-3r">
+        <a href="https://bqz.netlify.app//" class="link-underline link-underline-opacity-0 project">
+          <img class="border border-black w-100 project" src="./src/calculator-preview.png" alt="calculator-preview">
+        </a>
+        <h2 class="fs-5 text-info mt-3">Calculadora</h2>
+        <p class="mx-3 fs-6">Faça calculos matemáticos.</p>
+      </div>
     </div>
   </div>
-  <div class="d-flex justify-content-center gap-3 mb-3">
-    <a href="https://github.com/irmaodoguilherme">
+  <div class="d-flex justify-content-center gap-3 mb-4 mt-5">
+    <a href="https://github.com/irmaodoguilherme" class="contact d-flex justify-content-center w-100 mw-2-5r rounded-1">
       <i class="bi bi-github fs-3 text-info"></i>
     </a>
-    <a href="#">
-      <i class="bi bi-instagram fs-3 text-info"></i>
+    <a href="https://www.linkedin.com/in/guilherme-aires-8a3ab4282/" class="contact d-flex justify-content-center w-100 mw-2-5r rounded-1">
+      <i class="bi bi-linkedin fs-3 text-info"></i>
+    </a>
+    <a href="mailto:airesguilherme83@gmail.com" class="contact d-flex justify-content-center w-100 mw-2-5r rounded-1">
+      <i class="bi bi-envelope fs-3 text-info"></i>
     </a>
   </div>
   <div class="bg-black bg-opacity-50 text-center py-3">
-    <p class="my-auto">Developed by: Guilherme Aires</p>
+    <p class="my-auto">Desenvolvido por: Guilherme Aires</p>
   </div>
   <script src="./app.js"></script>
 </body>
