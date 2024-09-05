@@ -4,13 +4,26 @@
   box-sizing: border-box;
 }
 
-.mw-2-5r {
+.maxw-2-5r {
   max-width: 2.5rem;
 }
 
-.mw-16-3r {
+.maxw-16-3r {
   max-width: 16.3rem;
 }
+
+.maxw-21r {
+  max-width: 21rem;
+}
+
+.maxw-33r {
+  max-width: 33rem
+}
+
+.minw-16r {
+  min-width: 16rem;
+}
+
 
 .w-fit {
   width: fit-content;
