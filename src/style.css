@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Roboto';
+}
+
+.my-bg-dark {
+    background: #060e11;
+}
+
+.my-bg-light {
+    background: #EDEDE9;
+}
+
+.my-photo {
+    max-width: 23rem;
+}
+
+.main-description-container {
+    max-width: 24.1rem;
+}
+
+.experiences-container {
+    place-items: end;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+.card {
+    max-width: 21rem;
+}
+
+.place-content-center {
+    place-content: center;
+}
+
+.hover-scale:hover {
+    transform: scale(1.02);
+}
+
+.hover-contact:hover {
+    transform: rotate(-5deg) scale(1.1);
+}
+
+.transform-transition {
+    transition: transform .15s ease-in-out;
+}
+
+.bg-transition {
+    transition: background .20s ease-in-out;
+}
